@@ -1,0 +1,250 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+p {
+    font-family: 'Work Sans', sans-serif;
+}
+a,a:hover {
+    text-decoration: none;
+}
+
+/********************* header section css ********************/
+.header-section {
+    width: 100%;
+    background: #fff9f3;
+    
+}
+
+.header-section .menu {
+    width: 100%;
+}
+
+.header-section .menu .bg-light {
+    width: 100%;
+    background: transparent !important;
+}
+
+.menu .navbar-nav .nav-link {
+    color: #5a6e79;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.menu .navbar-nav .nav-link:hover {
+    color: #ffc480;
+    border-bottom: 2px solid #ffc480;
+}
+
+.menu .navbar-light .navbar-nav .active>.nav-link {
+    color: #ffc480;
+    border-bottom: 2px solid #ffc480;
+    
+}
+.header-section .menu .bg-light .btn-info {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: #ffffff;
+    color: #ffc480;
+    border: 0px;
+    transition: 1s ease-in;
+}
+
+.header-section .menu .bg-light .btn-info:hover, .header-section .menu .bg-light .btn-info:focus {
+    background: #ffc480;
+    color: #fff;
+    border: 0px;
+    box-shadow: none;
+}
+
+.header-section .banner {
+    width: 100%;
+    padding: 130px 0px;
+    background: url("../images/banner.png") center top no-repeat;
+    background-size: cover;
+}
+
+.banner .banner-inner {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.banner-inner h1 {
+    color: #ffc480;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.banner-inner p {
+    color: #5a6e79;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.header-section .banner .banner-inner .btn-info {
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: #ffc480;
+    color: #ffffff;
+    border: 0px;
+    transition: 1s ease-in;
+}
+
+.header-section .banner .banner-inner .btn-info:hover, .header-section .banner .banner-inner .btn-info:focus {
+    background: #fff;
+    color: #ffc480;
+    border: 0px;
+    box-shadow: none;
+}
+
+/********************* header section css ends********************/
+
+/****************.department-section css starts*******************/
+.department-section {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.department-section .department-inner {
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.department-section .department-inner h1 {
+    color: #000000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.department-section .department-inner p {
+    color: #5a6e79;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.department-section .feature-inner {
+    width: 100%;
+    text-align: center;
+}
+
+.department-section .bg1 {
+    background-color: #f9703a;
+}
+
+.department-section .bg2 {
+    background-color: #80be41;
+}
+
+.department-section .bg3 {
+    background-color: #ffb258;
+}
+
+.feature-inner h1 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+/****************.department-section css ends********************/
+
+/****************about chairman css starts********************/
+.about-chairman {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.about-chairman .text-inner {
+    width: 100%;
+}
+
+.about-chairman .text-inner h1 {
+    color: #000000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-chairman .text-inner p {
+    color: #5a6e79;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.students {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.courses {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.hours {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.students h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    color: #ffba00;
+    margin-bottom: -4px;
+}
+
+.students h6 {
+    color: #ffba00;
+}
+
+.courses h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    color: #ff5f72;
+    margin-bottom: -4px;
+}
+
+.courses h6 {
+    color: #ff5f72;
+}
+
+.hours h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    color: #43cb83;
+    margin-bottom: -4px;
+}
+
+.hours h6 {
+    color: #43cb83;
+}
+
+
+/****************about chairman css ends********************/
+
+
+
